@@ -1,3 +1,3 @@
-fetch('https://github.com/boliwarik/DB-best/blob/master/test.json')
+fetch('https://boliwarik.github.io/DB-best/test.json')
     .then(response => response.json())
     .then(json => console.log(json));
